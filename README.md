@@ -26,8 +26,8 @@ Clone the repository to your machine:
 
 Bash
 
-git clone https://github.com/your-username/gemini-sound-to-sound-assistant.git
-cd gemini-sound-to-sound-assistant
+git clone https://github.com/Roy2k5/AI-Sound-to-Sound-Virtual-Assistant.git
+cd AI-Sound-to-Sound-Virtual-Assistant
 Install the necessary libraries:
 
 Bash
