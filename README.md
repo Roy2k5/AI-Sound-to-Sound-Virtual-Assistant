@@ -16,7 +16,7 @@ Easy Exit: You can shut down the assistant at any time with simple voice command
 
 To run this assistant, you'll need:
 
-Python 3.x or a newer version.
+Python 3.10 or a newer version.
 
 A Gemini API Key. You can get one for free from Google AI Studio.
 
@@ -24,15 +24,18 @@ A Gemini API Key. You can get one for free from Google AI Studio.
 
 Clone the repository to your machine:
 
-Bash
+```Bash
 
 git clone https://github.com/Roy2k5/AI-Sound-to-Sound-Virtual-Assistant.git
 cd AI-Sound-to-Sound-Virtual-Assistant
+```
+
 Install the necessary libraries:
 
-Bash
+```Bash
+pip install -r requirements.txt
+```
 
-`pip install -r requirements.txt`
 Note: If you don't have a requirements.txt file, create one with the following content:
 
 google-generativeai
@@ -45,8 +48,6 @@ Open your code file and replace "\*\*\*" with your actual Gemini API key.
 # 🏃 How to Use
 
 Simply run the main.py file to start the assistant:
-
-Bash
 
 `python main.py`
 The assistant will greet you. After you hear "Listening...", you can begin asking questions or giving commands.
